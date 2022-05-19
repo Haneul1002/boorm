@@ -126,7 +126,8 @@
                 android:layout_marginStart="67dp"
                 android:layout_marginTop="68dp"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/ic_list_solid" />
+                app:srcCompat="@drawable/ic_list_solid"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button5"
@@ -140,11 +141,11 @@
                 android:elevation="100dp"
                 android:shadowColor="#000000"
                 android:text="카풀 이용 내역"
-                android:textSize="22" />
+                android:textSize="22dp" />
 
             <Button
                 android:id="@+id/button6"
-                android:layout_width="267"
+                android:layout_width="267dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button5"
                 android:layout_marginStart="2dp"
@@ -153,7 +154,7 @@
                 android:background="#FFFFFF"
                 android:elevation="10dp"
                 android:text="포인트 조회"
-                android:textSize="22" />
+                android:textSize="22dp" />
 
             <ImageButton
                 android:id="@+id/imageButton9"
@@ -164,11 +165,12 @@
                 android:layout_marginStart="69dp"
                 android:layout_marginTop="53dp"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/ic_coins_solid" />
+                app:srcCompat="@drawable/ic_coins_solid"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/button7"
-                android:layout_width="267"
+                android:layout_width="267dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button6"
                 android:layout_marginStart="5dp"
@@ -187,11 +189,12 @@
                 android:layout_marginStart="68dp"
                 android:layout_marginTop="45dp"
                 android:background="#FFFFFF"
-                app:srcCompat="@drawable/ic_credit_card_regular" />
+                app:srcCompat="@drawable/ic_credit_card_regular"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/button8"
-                android:layout_width="267"
+                android:layout_width="267dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button7"
                 android:layout_marginStart="5dp"
@@ -199,7 +202,7 @@
                 android:layout_toEndOf="@+id/imageButton11"
                 android:background="#FFFFFF"
                 android:text="드라이버 등록"
-                android:textSize="22" />
+                android:textSize="22dp" />
 
             <ImageButton
                 android:id="@+id/imageButton11"
@@ -210,11 +213,12 @@
                 android:layout_marginStart="69dp"
                 android:layout_marginTop="53dp"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/ic_car_side_solid" />
+                app:srcCompat="@drawable/ic_car_side_solid"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/button9"
-                android:layout_width="267"
+                android:layout_width="267dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button8"
                 android:layout_marginStart="8dp"
@@ -222,7 +226,7 @@
                 android:layout_toEndOf="@+id/imageButton12"
                 android:background="#FFFFFF"
                 android:text="계정 설정"
-                android:textSize="22" />
+                android:textSize="22dp" />
 
             <ImageButton
                 android:id="@+id/imageButton12"
@@ -233,7 +237,8 @@
                 android:layout_marginStart="66dp"
                 android:layout_marginTop="58dp"
                 android:background="#00FFFFFF"
-                app:srcCompat="@drawable/ic_lock_solid" />
+                app:srcCompat="@drawable/ic_lock_solid"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </RelativeLayout>
 
