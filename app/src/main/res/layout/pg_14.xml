@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
+            android:background="@drawable/shadow"
             app:srcCompat="@drawable/ic_user_friends_solid__1_"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
+            android:background="@drawable/shadow"
             app:srcCompat="@drawable/ic_user_edit_solid__2_"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
+            android:background="@drawable/shadow"
             app:srcCompat="@drawable/ic_home_solid"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
+            android:background="@drawable/shadow"
             app:srcCompat="@drawable/ic_store_solid__1_"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
+            android:background="@drawable/shadow"
             app:srcCompat="@drawable/ic_cog_solid"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -115,6 +115,7 @@
             android:id="@+id/RelativeLayout01"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/border_top"
             android:nestedScrollingEnabled="false">
 
             <ImageButton
@@ -125,7 +126,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="67dp"
                 android:layout_marginTop="68dp"
-                android:background="#00FFFFFF"
+                android:background="@drawable/shadow"
                 app:srcCompat="@drawable/ic_list_solid"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -137,7 +138,7 @@
                 android:layout_marginStart="6dp"
                 android:layout_marginTop="62dp"
                 android:layout_toEndOf="@+id/imageButton8"
-                android:background="#FFFFFF"
+                android:background="@drawable/shadow"
                 android:elevation="100dp"
                 android:shadowColor="#000000"
                 android:text="카풀 이용 내역"
@@ -151,7 +152,7 @@
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="37dp"
                 android:layout_toEndOf="@+id/imageButton9"
-                android:background="#FFFFFF"
+                android:background="@drawable/shadow"
                 android:elevation="10dp"
                 android:text="포인트 조회"
                 android:textSize="22dp" />
@@ -164,7 +165,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="69dp"
                 android:layout_marginTop="53dp"
-                android:background="#00FFFFFF"
+                android:background="@drawable/shadow"
                 app:srcCompat="@drawable/ic_coins_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -176,7 +177,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="37dp"
                 android:layout_toEndOf="@+id/imageButton10"
-                android:background="#FFFFFF"
+                android:background="@drawable/shadow"
                 android:text="결제 수단 관리"
                 android:textSize="22dp" />
 
@@ -188,7 +189,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="68dp"
                 android:layout_marginTop="45dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/shadow"
                 app:srcCompat="@drawable/ic_credit_card_regular"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -200,7 +201,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="37dp"
                 android:layout_toEndOf="@+id/imageButton11"
-                android:background="#FFFFFF"
+                android:background="@drawable/shadow"
                 android:text="드라이버 등록"
                 android:textSize="22dp" />
 
@@ -212,7 +213,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="69dp"
                 android:layout_marginTop="53dp"
-                android:background="#00FFFFFF"
+                android:background="@drawable/shadow"
                 app:srcCompat="@drawable/ic_car_side_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -224,7 +225,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="36dp"
                 android:layout_toEndOf="@+id/imageButton12"
-                android:background="#FFFFFF"
+                android:background="@drawable/shadow"
                 android:text="계정 설정"
                 android:textSize="22dp" />
 
@@ -236,7 +237,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="66dp"
                 android:layout_marginTop="58dp"
-                android:background="#00FFFFFF"
+                android:background="@drawable/shadow"
                 app:srcCompat="@drawable/ic_lock_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
