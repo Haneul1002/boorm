@@ -143,6 +143,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
             android:textSize="40px"
             android:text="국민카드(1234)"
             android:layout_gravity="center"
@@ -195,6 +196,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
             android:textSize="40px"
             android:text="하나은행(5678)"
             android:layout_gravity="center"
@@ -250,6 +252,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
             android:text="카카오 페이 연동 완료"
             android:layout_gravity="center"
             android:textSize="40px" />
@@ -272,6 +275,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
             android:text="네이버 페이 연동 안됨"
             android:layout_gravity="center"
             android:textSize="40px" />
