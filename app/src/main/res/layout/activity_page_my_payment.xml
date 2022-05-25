@@ -132,10 +132,10 @@
         >
         <ImageButton
             android:id="@+id/card"
-            android:layout_width="200px"
+            android:layout_width="100px"
             android:layout_height="100px"
-
             android:scaleType="fitCenter"
+            android:layout_marginLeft="30px"
             android:background="#FAF4C0"
             android:layout_gravity="center"
             android:src="@drawable/ic_credit_card_regular"
@@ -187,8 +187,9 @@
         >
         <ImageButton
             android:id="@+id/account"
-            android:layout_width="200px"
+            android:layout_width="100px"
             android:layout_height="100px"
+            android:layout_marginLeft="30px"
             android:scaleType="fitCenter"
             android:background="#CEFBC9"
             android:layout_gravity="center"
@@ -241,8 +242,9 @@
 
         <ImageButton
             android:id="@+id/naverpay"
-            android:layout_width="200px"
+            android:layout_width="100px"
             android:layout_height="100px"
+            android:layout_marginLeft="30px"
             android:scaleType="fitCenter"
             android:background="#FAF4C0"
             android:layout_gravity="center"
@@ -266,8 +268,9 @@
         >
         <ImageButton
             android:id="@+id/kakaopay"
-            android:layout_width="200px"
+            android:layout_width="100px"
             android:layout_height="100px"
+            android:layout_marginLeft="30px"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
             android:background="#CEFBC9"
