@@ -54,18 +54,21 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:background="@color/black"/>
+    <!-- 구분선-->
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        >
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:queryHint="검색어를 입력하시오"></SearchView>
+
     </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -84,7 +87,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:background="@color/black"/>
     <!-- 구분선-->
 
