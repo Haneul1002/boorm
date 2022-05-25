@@ -170,8 +170,8 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="346dp"
-            android:layout_height="80dp"
+            android:layout_width="336dp"
+            android:layout_height="78dp"
             android:layout_below="@+id/textView4"
             android:layout_alignParentStart="true"
             android:layout_marginStart="34dp"
@@ -182,8 +182,8 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="346dp"
-            android:layout_height="80dp"
+            android:layout_width="337dp"
+            android:layout_height="74dp"
             android:layout_below="@+id/button"
             android:layout_alignParentStart="true"
             android:layout_marginStart="33dp"
