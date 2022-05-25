@@ -8,6 +8,48 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_angle_left_solid.xml" value="0.26" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1455" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/border.xml" value="0.176" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/border_top.xml" value="0.176" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/border_topbot.xml" value="0.176" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_angle_left_solid.xml" value="0.1735" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_arrow_circle_up_solid.xml" value="0.1735" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_camera_solid.xml" value="0.207" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_car_side_solid.xml" value="0.3005" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_cart.xml" value="0.299" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_check_circle_solid.xml" value="0.207" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_cog_solid.xml" value="0.1735" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_file_text.xml" value="0.299" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_history.xml" value="0.299" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_home_solid.xml" value="0.1735" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_plus.xml" value="0.2485" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_save_solid.xml" value="0.2485" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_store_solid__1_.xml" value="0.207" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_user_edit_solid__2_.xml" value="0.1455" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_user_friends_solid__1_.xml" value="0.1455" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/ic_user_plus_solid.xml" value="0.2485" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/loding.xml" value="0.2035" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/drawable/profile_border.xml" value="0.2155" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_market_history.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_market_main.xml" value="0.33" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_market_wishlist.xml" value="0.27219202898550726" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_drivereg.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_drivereg1.xml" value="0.33" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_drivereg2.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_list.xml" value="0.25" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_payment.xml" value="0.33" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_profile.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/activity_page_my_profile_edit.xml" value="0.33" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/loding.xml" value="0.14" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_11.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_12.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_13.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_14.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_15_1.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_15_2.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/USER/Desktop/app/boorm/app/src/main/res/layout/pg_16.xml" value="0.22056159420289856" />
       </map>
     </option>
   </component>
