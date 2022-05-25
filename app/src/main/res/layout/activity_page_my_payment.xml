@@ -14,13 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_weight="1"
+
         >
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+
             android:background="#00F6F3F3"
             app:srcCompat="@drawable/ic_angle_left_solid"
             android:layout_margin="30px"
@@ -30,7 +30,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="10"
+
             android:layout_gravity="center"
             android:textAlignment="center"
             android:layout_margin="30px"
