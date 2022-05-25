@@ -107,7 +107,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="35px"
+            android:textSize="45px"
             android:layout_weight="1"
             android:layout_gravity="center"
             android:text="카드"
@@ -120,7 +120,7 @@
             app:srcCompat="@drawable/ic_plus"
             android:background="#00F6F3F3"
             android:layout_gravity="center"
-            android:layout_margin="10px"
+            android:layout_marginRight="30px"
             />
     </LinearLayout>
 
@@ -132,8 +132,8 @@
         >
         <ImageButton
             android:id="@+id/card"
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="150px"
+            android:layout_height="150px"
             android:scaleType="fitCenter"
             android:layout_marginLeft="30px"
             android:background="#FAF4C0"
@@ -163,7 +163,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="35px"
+            android:textSize="45px"
             android:layout_gravity="center"
             android:layout_weight="1"
             android:text="계좌"
@@ -174,7 +174,7 @@
             android:layout_height="match_parent"
             android:background="#00F6F3F3"
             app:srcCompat="@drawable/ic_plus"
-            android:layout_margin="10px"
+            android:layout_marginRight="30px"
             android:layout_gravity="center"
             />
     </LinearLayout>
@@ -187,8 +187,8 @@
         >
         <ImageButton
             android:id="@+id/account"
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="150px"
+            android:layout_height="150px"
             android:layout_marginLeft="30px"
             android:scaleType="fitCenter"
             android:background="#CEFBC9"
@@ -242,8 +242,8 @@
 
         <ImageButton
             android:id="@+id/naverpay"
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="150px"
+            android:layout_height="150px"
             android:layout_marginLeft="30px"
             android:scaleType="fitCenter"
             android:background="#FAF4C0"
@@ -268,8 +268,8 @@
         >
         <ImageButton
             android:id="@+id/kakaopay"
-            android:layout_width="100px"
-            android:layout_height="100px"
+            android:layout_width="150px"
+            android:layout_height="150px"
             android:layout_marginLeft="30px"
             android:layout_gravity="center"
             android:scaleType="fitCenter"
