@@ -4,38 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    >
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#00F6F3F3"
-            app:srcCompat="@drawable/ic_angle_left_solid"
             android:layout_margin="30dp"
-            android:padding="20dp" />
+            android:background="#00F6F3F3"
+            android:padding="20dp"
+            app:srcCompat="@drawable/ic_angle_left_solid"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/text_id_search"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:layout_margin="30px"
             android:padding="50px"
-            android:layout_gravity="center"
-            android:textAlignment="center"
             android:text="아이디 찾기"
-            android:textSize="60px"/>
+            android:textAlignment="center"
+            android:textSize="60px" />
     </FrameLayout>
 
     <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/black"/>
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout" />
 
     <EditText
         android:id="@+id/et_name"
@@ -47,7 +53,8 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/et_phone"
@@ -59,7 +66,8 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/et_name"
         app:layout_constraintStart_toStartOf="@+id/et_name"
-        app:layout_constraintTop_toBottomOf="@+id/et_name" />
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/et_certification"
@@ -71,10 +79,8 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/et_phone"
         app:layout_constraintStart_toStartOf="@+id/et_phone"
-        app:layout_constraintTop_toBottomOf="@+id/et_phone" />
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/et_phone"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
     <Button
@@ -85,21 +91,20 @@
         android:text="확인"
         app:layout_constraintEnd_toEndOf="@+id/et_certification"
         app:layout_constraintStart_toStartOf="@+id/et_certification"
-        app:layout_constraintTop_toBottomOf="@+id/et_certification" />
+        app:layout_constraintTop_toBottomOf="@+id/et_certification"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/validateButton"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:layout_marginTop="0dp"
         android:text="본인확인"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toEndOf="@+id/et_phone"
-        app:layout_constraintTop_toTopOf="@+id/et_phone" />
-
-    </FrameLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>oStartOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/et_phone"
+        tools:ignore="TouchTargetSizeCheck" />
+=
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
