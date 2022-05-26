@@ -28,15 +28,15 @@
 
         <TextView
             android:id="@+id/textView12"
-            android:layout_width="89dp"
-            android:layout_height="49dp"
+            android:layout_width="217dp"
+            android:layout_height="43dp"
             android:layout_alignParentTop="true"
             android:layout_marginStart="20dp"
             android:layout_marginTop="24dp"
             android:layout_toEndOf="@+id/imageView10"
-            android:text="홍길동"
+            android:text="유성구 원신흥동 오픈채팅방"
             android:textColor="#000000"
-            android:textSize="23dp" />
+            android:textSize="18dp" />
 
     </RelativeLayout>
 
@@ -49,7 +49,8 @@
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_big_x" />
+        app:srcCompat="@drawable/ic_big_x"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -73,7 +74,8 @@
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_image_solid" />
+        app:srcCompat="@drawable/ic_image_solid"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton28"
@@ -84,6 +86,7 @@
         android:background="#00FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/imageButton27"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_free_icon_font_paper_plane_3917398" />
+        app:srcCompat="@drawable/ic_free_icon_font_paper_plane_3917398"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
