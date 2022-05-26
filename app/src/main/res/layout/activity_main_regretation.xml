@@ -44,7 +44,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="출발일자 / 도착시간"
-            android:textColor="#8E8C8C" />
+            android:textColor="#8E8C8C"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -65,7 +66,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:text="요구 사항"
-            android:textColor="#8E8C8C" />
+            android:textColor="#8E8C8C"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/button27"
