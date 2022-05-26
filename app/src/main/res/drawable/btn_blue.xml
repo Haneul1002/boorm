@@ -1,0 +1,15 @@
+<!--구글에서 제공하는 디자인: input field에 값을 채워도 hint가 보인다.-->
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+    <!--기본 ver) 힌트 사라짐-->
+<EditText
+android:layout_width="match_parent"
+android:hint="Email"
+android:layout_height="50dp"/>

@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.153" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_angle_left_solid.xml" value="0.3085" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_bell_solid__1_.xml" value="0.154" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_cog_solid.xml" value="0.154" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_home_solid.xml" value="0.154" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_launcher_background.xml" value="0.153" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_store_solid__1_.xml" value="0.154" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_user_edit_solid__2_.xml" value="0.154" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_user_friends_solid__1_.xml" value="0.154" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_idsearch.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_login.xml" value="0.14596554850407978" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_match_registration.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_password.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_user_detail.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_user_match.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.154" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
