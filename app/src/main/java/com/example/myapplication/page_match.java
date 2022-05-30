@@ -9,6 +9,6 @@ public class page_match extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_match);
+        setContentView(R.layout.activity_match_detail);
     }
 }

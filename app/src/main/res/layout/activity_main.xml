@@ -112,22 +112,19 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:background="drawable/border"
                 android:contextClickable="false"
-                android:textFilterEnabled="false"></ListView>
+                android:textFilterEnabled="false">
 
+            </ListView>
             <ImageButton
                 android:id="@+id/imageButton31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
                 android:layout_marginStart="320dp"
-                android:layout_marginTop="330dp"
+                android:layout_marginTop="200dp"
                 android:background="#00FFFFFF"
                 app:srcCompat="@drawable/ic_arrow_rotate_right_solid"
                 tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
-
             <ImageButton
                 android:id="@+id/imageButton32"
                 android:layout_width="wrap_content"
@@ -135,7 +132,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="320dp"
-                android:layout_marginTop="400dp"
+                android:layout_marginTop="280dp"
                 android:background="#00FFFFFF"
                 app:srcCompat="@drawable/ic_circle_plus_solid"
                 tools:ignore="SpeakableTextPresentCheck" />
