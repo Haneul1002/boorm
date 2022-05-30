@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="50dp"
         android:layout_height="65dp"
-        android:src="@drawable/ic_angle_left_solid"
-        android:layout_marginLeft="5dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        />
-    <TextView
-        android:id="@+id/text_id_search"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="1px"
-        android:padding="50px"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:text="상세보기"
-        android:textSize="60px"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="184dp"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/logo" />
 
     <ImageView
         android:id="@+id/mainimage"
@@ -89,5 +83,17 @@
         android:orientation="horizontal">
 
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="35dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/angle_left_solid"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 </RelativeLayout>

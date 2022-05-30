@@ -87,5 +87,17 @@
             android:text="매칭 등록"
             android:textSize="27dp" />
 
+        <ImageButton
+            android:id="@+id/imageButton29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="363dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/angle_left_solid"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

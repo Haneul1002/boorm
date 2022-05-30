@@ -21,7 +21,7 @@
             android:layout_margin="30dp"
             android:background="#00F6F3F3"
             android:padding="20dp"
-            app:srcCompat="@drawable/ic_angle_left_solid"
+            app:srcCompat="@drawable/angle_left_solid"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <TextView

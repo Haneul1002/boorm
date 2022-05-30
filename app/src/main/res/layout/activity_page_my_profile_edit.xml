@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#00F6F3F3"
-            app:srcCompat="@drawable/ic_angle_left_solid"
+            app:srcCompat="@drawable/angle_left_solid"
             android:layout_weight="1"
             android:layout_margin="30px"
             android:padding="50px" />

@@ -11,14 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#00F6F3F3"
-            app:srcCompat="@drawable/ic_angle_left_solid"
             android:layout_margin="30px"
-            android:padding="50px" />
+            android:background="#00F6F3F3"
+            android:padding="50px"
+            app:srcCompat="@drawable/angle_left_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView"
@@ -53,13 +55,14 @@
         android:text="차량사진 앞면"
         android:textSize="40px"></TextView>
 
-    <ImageButton
-        android:layout_width="250px"
-        android:layout_height="250px"
-        android:scaleType="fitCenter"
-        android:layout_gravity="center"
-        android:background="#00FFFFFF"
-        app:srcCompat="@drawable/ic_camera_solid"/>
+        <ImageButton
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_camera_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -75,13 +78,15 @@
             android:textAlignment="center"
             android:text="운전 면허증 등록"
             android:textSize="40px"></TextView>
+
         <ImageButton
             android:layout_width="250px"
             android:layout_height="250px"
-            android:scaleType="fitCenter"
             android:layout_gravity="center"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_plus_solid"/>
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_user_plus_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <!-- 구분선-->
