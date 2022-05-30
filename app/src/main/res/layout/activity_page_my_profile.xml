@@ -24,7 +24,7 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="10"
             android:layout_margin="30px"
@@ -34,11 +34,10 @@
             android:text="프로필"
             android:textSize="60px"/>
     </FrameLayout>
-
     <!-- 구분선-->
     <View
         android:layout_width="match_parent"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:background="@color/black"/>
     <!-- 구분선-->
 
