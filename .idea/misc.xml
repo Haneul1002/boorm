@@ -3,6 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/drawable/angle_left_solid.xml" value="0.2025" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/drawable/ic_arrow_circle_up_solid.xml" value="0.2025" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/drawable/ic_arrow_rotate_right_solid.xml" value="0.2025" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/drawable/ic_cart.xml" value="0.1575" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/drawable/ic_coins_solid.xml" value="0.1575" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_idsearch.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_login.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_main_regretation.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_match_detail.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_id_pw_change.xml" value="0.25" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_market_history.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_market_main.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_market_wishlist.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_drivereg.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_drivereg1.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_drivereg2.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_list.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_payment.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_profile.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_my_profile_edit.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_page_nic_pw_change.xml" value="0.18" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_password.xml" value="0.2515625" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/activity_signup.xml" value="0.2546875" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/fragment_nickname.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/fragment_page__n_i_c_k_change.xml" value="0.25" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/fragment_page__p_w_change.xml" value="0.25" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/loding.xml" value="0.2546875" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/pg_12.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/pg_14.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/layout/pg_16.xml" value="0.22282608695652173" />
+        <entry key="..\:/Users/Public/Downloads/boorm/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.153" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_angle_left_solid.xml" value="0.3085" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_bell_solid__1_.xml" value="0.154" />

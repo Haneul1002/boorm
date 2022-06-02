@@ -24,66 +24,64 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="405dp"
-        android:layout_height="85dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.975">
 
         <ImageButton
             android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
 
         <ImageButton
             android:id="@+id/imageButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
 
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/ic_home_solid" />
 
         <ImageButton
             android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/ic_store_solid__1_" />
 
         <ImageButton
             android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
+            app:srcCompat="@drawable/ic_cog_solid" />
     </LinearLayout>
 
     <LinearLayout
@@ -123,6 +121,7 @@
                 android:layout_marginStart="320dp"
                 android:layout_marginTop="200dp"
                 android:background="#00FFFFFF"
+
                 app:srcCompat="@drawable/ic_arrow_rotate_right_solid"
                 tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
             <ImageButton
@@ -134,6 +133,7 @@
                 android:layout_marginStart="320dp"
                 android:layout_marginTop="280dp"
                 android:background="#00FFFFFF"
+
                 app:srcCompat="@drawable/ic_circle_plus_solid"
                 tools:ignore="SpeakableTextPresentCheck" />
         </RelativeLayout>
