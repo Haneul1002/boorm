@@ -11,15 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#00F6F3F3"
-            app:srcCompat="@drawable/angle_left_solid"
-            android:layout_weight="1"
             android:layout_margin="30px"
-            android:padding="50px" />
+            android:layout_weight="1"
+            android:background="#00F6F3F3"
+            android:padding="50px"
+            app:srcCompat="@drawable/angle_left_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView"
@@ -64,7 +66,8 @@
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/ic_save_solid" />
+            app:srcCompat="@drawable/ic_save_solid"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     </FrameLayout>
 
@@ -120,7 +123,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
+            app:srcCompat="@drawable/ic_user_friends_solid__1_"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -129,7 +133,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
+            app:srcCompat="@drawable/ic_user_edit_solid__2_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -138,7 +143,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid" />
+            app:srcCompat="@drawable/ic_home_solid"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
             android:id="@+id/imageButton7"
@@ -147,7 +153,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_" />
+            app:srcCompat="@drawable/ic_store_solid__1_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -156,7 +163,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid" />
+            app:srcCompat="@drawable/ic_cog_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
 </LinearLayout>

@@ -227,7 +227,8 @@
                 android:layout_toEndOf="@+id/imageButton12"
                 android:background="@drawable/shadow"
                 android:text="계정 설정"
-                android:textSize="22dp" />
+                android:textSize="22dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
                 android:id="@+id/imageButton12"
