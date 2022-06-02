@@ -92,7 +92,6 @@ public class pg_14_java extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),page_my_list.class);
                 startActivity(intent);
-                finish();
             }
         });
         btn_point.setOnClickListener(new View.OnClickListener(){
@@ -100,7 +99,6 @@ public class pg_14_java extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),pg_15_1_java.class);
                 startActivity(intent);
-                finish();
             }
         });
         btn_card.setOnClickListener(new View.OnClickListener(){
@@ -108,7 +106,6 @@ public class pg_14_java extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),page_my_payment.class);
                 startActivity(intent);
-                finish();
             }
         });
         btn_dreg.setOnClickListener(new View.OnClickListener(){
@@ -116,7 +113,6 @@ public class pg_14_java extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),page_my_drivereg.class);
                 startActivity(intent);
-                finish();
             }
         });
         btn_aconfig.setOnClickListener(new View.OnClickListener(){
@@ -124,7 +120,6 @@ public class pg_14_java extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),page_my_profile_edit.class);
                 startActivity(intent);
-                finish();
             }
         });
     }
