@@ -10,7 +10,6 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class activity_main extends AppCompatActivity {
-    ImageButton btn_home;
     ImageButton btn_messenger;
     ImageButton btn_profile;
     ImageButton btn_store;
@@ -21,19 +20,11 @@ public class activity_main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_home = findViewById(R.id.imageButton3);
         btn_messenger = findViewById(R.id.imageButton4);
         btn_profile= findViewById(R.id.imageButton6);
         btn_store = findViewById(R.id.imageButton7);
         btn_config = findViewById(R.id.imageButton5);
 
-        btn_home.setOnClickListener(new View.OnClickListener(){
-            @Override
-                public void onClick(View v){
-                    Intent intent = new Intent(getApplicationContext(),activity_main.class);
-                    startActivity(intent);
-                }
-            });
         btn_messenger.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
