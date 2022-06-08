@@ -16,15 +16,17 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         >
+
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="30px"
             android:layout_weight="1"
             android:background="#00F6F3F3"
+            android:padding="50px"
             app:srcCompat="@drawable/angle_left_solid"
-            android:layout_margin="30px"
-            android:padding="50px" />
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView"
@@ -59,7 +61,8 @@
             android:layout_height="25dp"
             android:layout_margin="40px"
             android:background="#00F6F3F3"
-            app:srcCompat="@drawable/angle_left_solid" />
+            app:srcCompat="@drawable/angle_left_solid"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -114,11 +117,11 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_plus"
-            android:background="#00F6F3F3"
             android:layout_gravity="center"
             android:layout_margin="10px"
-            />
+            android:background="#00F6F3F3"
+            app:srcCompat="@drawable/ic_plus"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -127,13 +130,15 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         >
+
         <ImageButton
             android:id="@+id/card"
             android:layout_width="200px"
             android:layout_height="100px"
-            android:background="#FFC107"
             android:layout_margin="40px"
-            android:padding="50px" />
+            android:background="#FFC107"
+            android:padding="50px"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -162,14 +167,15 @@
             android:text="계좌"
             android:layout_margin="40px"
             />
+
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10px"
             android:background="#00F6F3F3"
             app:srcCompat="@drawable/ic_plus"
-            android:layout_margin="10px"
-            android:layout_gravity="center"
-            />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
     </LinearLayout>
 
     <LinearLayout
@@ -178,13 +184,15 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         >
+
         <ImageButton
             android:id="@+id/account"
             android:layout_width="200px"
             android:layout_height="100px"
-            android:background="@color/material_dynamic_primary60"
             android:layout_margin="40px"
-            android:padding="50px" />
+            android:background="@color/material_dynamic_primary60"
+            android:padding="50px"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -220,13 +228,15 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         >
+
         <ImageButton
             android:id="@+id/naverpay"
             android:layout_width="200px"
             android:layout_height="100px"
-            android:background="#9f2"
             android:layout_margin="40px"
-            android:padding="50px" />
+            android:background="#9f2"
+            android:padding="50px"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -240,13 +250,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/kakaopay"
             android:layout_width="200px"
             android:layout_height="100px"
-            android:background="#FFEB3B"
             android:layout_margin="40px"
-            android:padding="50px" />
+            android:background="#FFEB3B"
+            android:padding="50px"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -281,7 +293,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
+            app:srcCompat="@drawable/ic_user_friends_solid__1_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -290,7 +303,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
+            app:srcCompat="@drawable/ic_user_edit_solid__2_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -299,7 +313,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid" />
+            app:srcCompat="@drawable/ic_home_solid"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/imageButton7"
@@ -308,7 +323,8 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_" />
+            app:srcCompat="@drawable/ic_store_solid__1_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -317,6 +333,7 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid" />
+            app:srcCompat="@drawable/ic_cog_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 </LinearLayout>
