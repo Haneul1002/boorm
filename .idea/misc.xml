@@ -30,21 +30,14 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/activity_user_match.xml" value="0.33" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/layout/pg_13.xml" value="0.14285714285714285" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.154" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/angle_left_solid.xml" value="0.3015" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_arrow_rotate_right_solid.xml" value="0.3445" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_bell_solid__1_.xml" value="0.3445" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_circle_plus_solid.xml" value="0.3445" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_credit_card_regular.xml" value="0.3445" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_home_solid.xml" value="0.3445" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3445" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/ic_users_solid.xml" value="0.3445" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/drawable/shadow.xml" value="0.225" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_idsearch.xml" value="0.291213768115942" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_login.xml" value="0.21822916666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_main.xml" value="0.1875" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_main_regretation.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_match_detail.xml" value="0.358695652173913" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_market_history.xml" value="0.21822916666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_market_main.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_market_main.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_market_wishlist.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_drivereg.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_drivereg1.xml" value="0.21822916666666667" />
@@ -52,16 +45,16 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_list.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_payment.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_profile.xml" value="0.33" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_profile_edit.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_page_my_profile_edit.xml" value="0.33" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_password.xml" value="0.291213768115942" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_signup.xml" value="0.1875" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/activity_user_match.xml" value="0.25" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/loding.xml" value="0.1875" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_11.xml" value="0.1875" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_12.xml" value="0.22" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_12.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_13.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_14.xml" value="0.21822916666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_15_1.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_15_1.xml" value="0.33" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_15_2.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_16.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_25.xml" value="0.291213768115942" />
@@ -71,12 +64,10 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_27.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_27_1.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/layout/pg_28.xml" value="0.21822916666666667" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1865" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/boorm/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1865" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
