@@ -39,6 +39,29 @@ public class page_login_activity extends AppCompatActivity {
 
         });
 
+        Button button3 = (Button) findViewById(R.id.search_id_btn);
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), activity_idsearch.class);
+                startActivity(intent);
+            }
+
+        });
+
+        Button button4 = (Button) findViewById(R.id.search_password_btn);
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), page_password.class);
+                startActivity(intent);
+            }
+
+        });
+
+
     }
 }
 
