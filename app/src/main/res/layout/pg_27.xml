@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pg_12_java">
+    tools:context=".pg_27_java">
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="109dp"
-        android:layout_marginBottom="530dp"
+        android:layout_marginBottom="41dp"
         android:background="#00F6F3F3"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/RelativeLayout01"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +26,7 @@
         android:id="@+id/imageView2"
         android:layout_width="0dp"
         android:layout_height="61dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="178dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
@@ -238,6 +238,12 @@
                     android:layout_marginTop="16dp"
                     android:layout_toEndOf="@+id/textView12"
                     android:text="15:34" />
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#00FFFFFF" />
 
             </RelativeLayout>
 

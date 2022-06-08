@@ -38,32 +38,38 @@
             android:textColor="#000000"
             android:textSize="18dp" />
 
-    </RelativeLayout>
+        <ImageButton
+            android:id="@+id/imageButton26"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="17dp"
+            android:layout_toEndOf="@+id/textView12"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_big_x"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
-    <ImageButton
-        android:id="@+id/imageButton26"
-        android:layout_width="45dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="356dp"
-        android:layout_marginTop="4dp"
-        android:background="#00FFFFFF"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_big_x"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </RelativeLayout>
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="380dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="544dp"
+        android:layout_width="385dp"
+        android:layout_height="66dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="내용을 입력하세요"
         android:textColor="#777777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
 
     <ImageButton
         android:id="@+id/imageButton27"
@@ -88,5 +94,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_free_icon_font_paper_plane_3917398"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ListView
+        android:layout_width="409dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout03">
+
+        <TextView
+            android:id="@+id/chatmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat message"
+            android:textSize="34sp" />
+
+
+    </ListView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

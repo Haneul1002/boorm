@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pg_12_java">
+    tools:context=".pg_25_java">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -198,14 +198,6 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="27dp"
             app:srcCompat="@drawable/ic_user_plus_solid" />
-
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="270dp"
-            android:layout_below="@+id/RelativeLayout09"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="0dp" />
 
     </RelativeLayout>
 
