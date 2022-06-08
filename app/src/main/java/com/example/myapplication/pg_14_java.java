@@ -118,7 +118,7 @@ public class pg_14_java extends AppCompatActivity {
         btn_aconfig.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_my_profile_edit.class);
+                Intent intent = new Intent(getApplicationContext(),pg_16_java.class);
                 startActivity(intent);
             }
         });

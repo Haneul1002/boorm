@@ -190,9 +190,10 @@
             android:layout_width="200px"
             android:layout_height="100px"
             android:layout_margin="40px"
-            android:background="@color/material_dynamic_primary60"
+            android:background="#239FD1"
             android:padding="50px"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -294,7 +295,7 @@
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/ic_user_friends_solid__1_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -304,7 +305,7 @@
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/ic_user_edit_solid__2_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -314,7 +315,7 @@
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/ic_home_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
 
         <ImageButton
             android:id="@+id/imageButton7"
@@ -324,7 +325,7 @@
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/ic_store_solid__1_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -334,6 +335,6 @@
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
             app:srcCompat="@drawable/ic_cog_solid"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
     </LinearLayout>
 </LinearLayout>
