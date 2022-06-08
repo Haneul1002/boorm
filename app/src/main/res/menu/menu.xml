@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_solid"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/tab_message"
+        android:enabled="true"
+        android:icon="@drawable/ic_user_friends_solid__1_"
+        android:title="메시지"/>
+
+    <item
+        android:id="@+id/tab_market"
+        android:enabled="true"
+        android:icon="@drawable/ic_store_solid__1_"
+        android:title="마켓"/>
+
+    <item
+        android:id="@+id/tab_my_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_user_edit_solid__2_"
+        android:title="내 정보"/>
+
+    <item
+        android:id="@+id/tab_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_cog_solid"
+        android:title="기타"/>
+
+</menu>

@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/backButton"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="30dp"
@@ -25,7 +25,6 @@
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <TextView
-            android:id="@+id/text_id_search"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"

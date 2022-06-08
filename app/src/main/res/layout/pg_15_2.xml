@@ -115,9 +115,9 @@
                 android:layout_marginStart="45dp"
                 android:layout_marginTop="35dp"
                 android:ems="10"
-                android:textColor="#c1c1c1"
+                android:inputType="numberDecimal"
                 android:text="금액을 입력해주세요."
-                android:inputType="numberDecimal" />
+                android:textColor="#c1c1c1" />
 
             <Button
                 android:id="@+id/button10"
