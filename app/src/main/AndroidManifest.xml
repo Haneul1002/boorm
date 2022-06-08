@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".page_nic_pw_change"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,25 +29,23 @@
         <activity android:name=".page_password" />
         <activity android:name=".page_signup" />
         <activity android:name=".page_market_history" />
-        <activity android:name=".page_market_main" />
+
         <activity android:name=".page_market_wishlist" />
         <activity android:name=".page_my_drivereg" />
         <activity android:name=".page_my_drivereg1" />
         <activity android:name=".page_my_drivereg2" />
         <activity android:name=".page_my_list" />
         <activity android:name=".page_my_payment" />
-        <activity android:name=".page_my_profile" />
+
         <activity android:name=".page_my_profile_edit" />
 <!--        <activity android:name=".page_nic_pw_change">-->
         <activity android:name=".pg_11_java" />
         <activity android:name=".pg_12_java" />
         <activity android:name=".pg_13_java"/>
-        <activity android:name=".pg_14_java" />
         <activity android:name=".pg_15_1_java" />
         <activity android:name=".pg_15_2_java" />
         <activity android:name=".pg_16_java"/>
         <activity android:name=".pg_25_1java" />
-        <activity android:name=".pg_25_java" />
         <activity android:name=".pg_26_1java" />
         <activity android:name=".pg_26_java" />
         <activity android:name=".pg_27_1java" />
