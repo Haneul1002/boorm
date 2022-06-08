@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".activity_main"
+            android:name=".page_login_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_idsearch"/>
-        <activity android:name=".activity_login"/>
+        <activity android:name=".activity_main"/>
         <activity android:name=".activity_main_regretation"/>
         <activity android:name=".page_match"/>
         <activity android:name=".page_password"/>

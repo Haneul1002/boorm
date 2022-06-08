@@ -7,21 +7,6 @@
     android:background="#FFFFFF"
     tools:context=".pg_12_java">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginBottom="530dp"
-        android:background="#00F6F3F3"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/angle_left_solid"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="405dp"
@@ -125,6 +110,7 @@
                 android:background="#00FFFFFF"
                 app:srcCompat="@drawable/ic_arrow_rotate_right_solid"
                 tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
             <ImageButton
                 android:id="@+id/imageButton32"
                 android:layout_width="wrap_content"
@@ -142,13 +128,12 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="65dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:layout_marginStart="112dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="163dp" />
 
     <ImageButton
         android:id="@+id/imageButton33"

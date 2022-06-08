@@ -6,34 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".pg_12_java">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="49dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="530dp"
-        android:background="#00F6F3F3"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/angle_left_solid"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="0dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="178dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
-
     <LinearLayout
+
         android:id="@+id/linearLayout"
         android:layout_width="405dp"
         android:layout_height="85dp"
@@ -45,59 +19,10 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.975">
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/shadow"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/shadow"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/shadow"
-            app:srcCompat="@drawable/ic_home_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/shadow"
-            app:srcCompat="@drawable/ic_store_solid__1_"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/shadow"
-            app:srcCompat="@drawable/ic_cog_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
-
     <LinearLayout
+
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -112,49 +37,54 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
+
             android:id="@+id/RelativeLayout01"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/border_top"
+            android:background="@color/white"
             android:nestedScrollingEnabled="false">
 
             <ImageButton
+
                 android:id="@+id/imageButton8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="67dp"
+                android:layout_marginStart="43dp"
                 android:layout_marginTop="68dp"
-                android:background="@drawable/shadow"
+                android:background="@color/white"
                 app:srcCompat="@drawable/ic_list_solid"
                 tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="267dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="6dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="62dp"
                 android:layout_toEndOf="@+id/imageButton8"
-                android:background="@drawable/shadow"
+                android:backgroundTint="@color/white"
                 android:elevation="100dp"
                 android:shadowColor="#000000"
                 android:text="카풀 이용 내역"
+                android:textColor="@color/black"
+
                 android:textSize="22dp" />
 
             <Button
                 android:id="@+id/button6"
-                android:layout_width="267dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button5"
-                android:layout_marginStart="2dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="37dp"
                 android:layout_toEndOf="@+id/imageButton9"
-                android:background="@drawable/shadow"
+                android:backgroundTint="@color/white"
                 android:elevation="10dp"
                 android:text="포인트 조회"
+                android:textColor="@color/black"
                 android:textSize="22dp" />
 
             <ImageButton
@@ -163,21 +93,22 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageButton8"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="69dp"
+                android:layout_marginStart="43dp"
                 android:layout_marginTop="53dp"
-                android:background="@drawable/shadow"
+                android:background="@color/white"
                 app:srcCompat="@drawable/ic_coins_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/button7"
-                android:layout_width="267dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button6"
-                android:layout_marginStart="5dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="37dp"
                 android:layout_toEndOf="@+id/imageButton10"
-                android:background="@drawable/shadow"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
                 android:text="결제 수단 관리"
                 android:textSize="22dp" />
 
@@ -187,22 +118,23 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageButton9"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="68dp"
+                android:layout_marginStart="43dp"
                 android:layout_marginTop="45dp"
-                android:background="@drawable/shadow"
+                android:background="@color/white"
                 app:srcCompat="@drawable/ic_credit_card_regular"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/button8"
-                android:layout_width="267dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button7"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="37dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="35dp"
                 android:layout_toEndOf="@+id/imageButton11"
-                android:background="@drawable/shadow"
+                android:backgroundTint="@color/white"
                 android:text="드라이버 등록"
+                android:textColor="@color/black"
                 android:textSize="22dp" />
 
             <ImageButton
@@ -211,21 +143,22 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageButton10"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="69dp"
-                android:layout_marginTop="53dp"
-                android:background="@drawable/shadow"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="60dp"
+                android:background="@color/white"
                 app:srcCompat="@drawable/ic_car_side"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
                 android:id="@+id/button9"
-                android:layout_width="267dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button8"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="36dp"
                 android:layout_toEndOf="@+id/imageButton12"
-                android:background="@drawable/shadow"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
                 android:text="계정 설정"
                 android:textSize="22dp"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -236,14 +169,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageButton11"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="66dp"
-                android:layout_marginTop="58dp"
-                android:background="@drawable/shadow"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="55dp"
+                android:background="@color/white"
                 app:srcCompat="@drawable/ic_lock_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </RelativeLayout>
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

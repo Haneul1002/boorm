@@ -4,81 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page_match_detail"
+    tools:context=".page_nic_pw_change"
     android:orientation="vertical">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <ImageButton
             android:id="@+id/imageButton"
-            app:srcCompat="@drawable/angle_left_solid"
-            tools:ignore="SpeakableTextPresentCheck"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:layout_margin="30px"
-            android:background="#00F6F3F3"
-            android:padding="50px"
-            android:src="@drawable/angle_left_solid" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
+            android:background="#00F6F3F3"
+            app:srcCompat="@drawable/angle_left_solid"
+            android:layout_margin="30px"
+            android:padding="50px" />
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
+            android:textAlignment="center"
             android:layout_margin="30px"
             android:padding="50px"
-            android:text="상세보기"
-            android:textAlignment="center"
+            android:text="닉네임/PW 변경"
             android:textSize="60px" />
-
     </FrameLayout>
 
-    <ImageView
-        android:id="@+id/imageView5"
+    <!-- 구분선-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <!-- 구분선-->
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+    </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:itemTextColor="@color/black"
+        app:itemBackground="@color/white"
+        app:menu="@menu/navigation_menu"/>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <!-- 구분선-->
+    <View
         android:layout_width="match_parent"
-        android:layout_height="54dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="375dp"
-        android:orientation="vertical">
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="278dp"
-            android:layout_gravity="center">
-
-            <TextView
-                android:id="@+id/textView23"
-                android:layout_width="403dp"
-                android:layout_height="72dp"
-                android:text="목원대학교 - 갤러리아 타임월드" />
-
-        </FrameLayout>
-
-        <Button
-            android:id="@+id/button33"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="카풀 거절" />
-
-        <Button
-            android:id="@+id/button28"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="카풀 수락"
-            />
-
-    </LinearLayout>
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <!-- 구분선-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,7 +73,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975">
+        app:layout_constraintVertical_bias="0.975"
+        >
 
         <ImageButton
             android:id="@+id/imageButton4"
@@ -97,7 +83,9 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
+            app:srcCompat="@drawable/ic_user_friends_solid__1_"
+            android:layout_weight="1"
+            />
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -106,7 +94,9 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
+            app:srcCompat="@drawable/ic_user_edit_solid__2_"
+            android:layout_weight="1"
+            />
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -115,7 +105,9 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid" />
+            app:srcCompat="@drawable/ic_home_solid"
+            android:layout_weight="1"
+            />
 
         <ImageButton
             android:id="@+id/imageButton7"
@@ -124,7 +116,9 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_" />
+            app:srcCompat="@drawable/ic_store_solid__1_"
+            android:layout_weight="1"
+            />
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -133,7 +127,9 @@
             android:layout_margin="15dp"
             android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid" />
+            app:srcCompat="@drawable/ic_cog_solid"
+            android:layout_weight="1"
+            />
 
     </LinearLayout>
 </LinearLayout>

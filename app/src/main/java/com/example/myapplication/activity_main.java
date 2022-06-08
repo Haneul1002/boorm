@@ -1,57 +1,20 @@
 package com.example.myapplication;
 
-import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
-public class activity_main extends AppCompatActivity {
-    ImageButton btn_messenger;
-    ImageButton btn_profile;
-    ImageButton btn_store;
-    ImageButton btn_config;
+public class activity_main extends Fragment {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        btn_messenger = findViewById(R.id.imageButton4);
-        btn_profile= findViewById(R.id.imageButton6);
-        btn_store = findViewById(R.id.imageButton7);
-        btn_config = findViewById(R.id.imageButton5);
-
-        btn_messenger.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),pg_25_java.class);
-                startActivity(intent);
-            }
-        });
-        btn_profile.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_my_profile.class);
-                startActivity(intent);
-            }
-        });
-        btn_store.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_market_main.class);
-                startActivity(intent);
-            }
-        });
-        btn_config.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),pg_14_java.class);
-                startActivity(intent);
-            }
-        });
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.activity_main, container, false);
     }
 }
