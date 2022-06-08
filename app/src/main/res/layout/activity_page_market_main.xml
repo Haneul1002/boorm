@@ -62,18 +62,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-
-<!--        <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_margin="10px"-->
-<!--        android:textSize="50px"-->
-<!--        android:gravity="center"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:text="검색"-->
-<!--        >-->
-<!--    </TextView>-->
-
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -97,5 +85,66 @@
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <!-- 구분선-->
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_home_solid" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_store_solid__1_" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_cog_solid" />
+
+    </LinearLayout>
 </LinearLayout>
