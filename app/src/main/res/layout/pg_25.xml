@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".pg_25_java">
 
+
     <FrameLayout
         android:background="#7ad0f2"
         android:layout_width="match_parent"
@@ -14,7 +15,7 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_margin="30px"
+            android:layout_margin="35px"
             android:layout_width="200px"
             android:layout_height="200px"
             android:layout_gravity="center"

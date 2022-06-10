@@ -16,7 +16,7 @@ public class page_password extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_password);
 
-        btn_back = findViewById(R.id.backButton);
+        btn_back = findViewById(R.id.Backbutton);
 
         btn_back.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -25,6 +25,5 @@ public class page_password extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }

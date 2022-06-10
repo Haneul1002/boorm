@@ -1,54 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#FFFFFF"
     tools:context=".pg_12_java">
 
-    <FrameLayout
-        android:background="#7ad0f2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_margin="35px"
-            android:layout_width="200px"
-            android:layout_height="200px"
-            android:layout_gravity="center"
-            android:src="@drawable/logo"
-            >
-        </ImageView>
-
-        <ImageView
-            android:layout_width="60px"
-            android:layout_height="60px"
-            android:layout_gravity="center|right"
-            android:layout_margin="50px"
-            android:src="@drawable/ic_bell_solid__1_">
-        </ImageView>
-    </FrameLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/black"/>
-
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:contextClickable="false"
-            android:textFilterEnabled="false">
-        </ListView>
+        android:id="@+id/linearLayout"
+        android:layout_width="405dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.975">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_user_friends_solid__1_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_user_edit_solid__2_"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_home_solid"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_store_solid__1_"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_cog_solid"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
-</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_top"
+            android:nestedScrollingEnabled="false">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:contextClickable="false"
+                android:textFilterEnabled="false">
+
+            </ListView>
+            <ImageButton
+                android:id="@+id/imageButton31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="200dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/ic_arrow_rotate_right_solid"
+                tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+            <ImageButton
+                android:id="@+id/regretation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="280dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/ic_circle_plus_solid"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="52dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_bell_solid__1_"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

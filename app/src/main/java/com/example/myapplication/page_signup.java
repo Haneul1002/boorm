@@ -14,18 +14,16 @@ public class page_signup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_idsearch);
 
-            btn_back = findViewById(R.id.backButton);
+        btn_back = findViewById(R.id.Backbutton);
 
-            btn_back.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick(View v){
-                    Intent intent = new Intent(getApplicationContext(),page_login_activity.class);
-                    startActivity(intent);
-                }
-            });
-
-
+        btn_back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(),page_login_activity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
