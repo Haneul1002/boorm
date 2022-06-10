@@ -16,7 +16,7 @@ public class activity_idsearch extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_idsearch);
 
-        btn_back = findViewById(R.id.backButton);
+        btn_back = findViewById(R.id.Backbutton);
 
         btn_back.setOnClickListener(new View.OnClickListener(){
             @Override

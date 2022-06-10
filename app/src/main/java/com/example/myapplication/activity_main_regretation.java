@@ -9,15 +9,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class activity_main_regretation extends AppCompatActivity {
 
-    ImageButton btn_home;
+    ImageButton btn_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_regretation);
 
-        btn_home = findViewById(R.id.imageButton29);
-        btn_home.setOnClickListener(new View.OnClickListener(){
+        btn_back = findViewById(R.id.Backbutton);
+
+        btn_back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),activity_main.class);
