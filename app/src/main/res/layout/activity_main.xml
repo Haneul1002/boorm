@@ -27,7 +27,7 @@
             android:layout_width="60px"
             android:layout_height="60px"
             android:layout_gravity="center|right"
-            android:layout_margin="50px"
+            android:layout_margin="45px"
             android:src="@drawable/ic_bell_solid__1_">
         </ImageView>
     </FrameLayout>
