@@ -11,16 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="30px"
             android:background="#00F6F3F3"
-            android:padding="50px"
             app:srcCompat="@drawable/angle_left_solid"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:layout_margin="30px"
+            android:padding="50px" />
 
         <TextView
             android:id="@+id/textView"
@@ -37,7 +35,7 @@
     <!-- 구분선-->
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:background="@color/black"/>
     <!-- 구분선-->
 
@@ -55,14 +53,13 @@
         android:text="차량사진 앞면"
         android:textSize="40px"></TextView>
 
-        <ImageButton
-            android:layout_width="250px"
-            android:layout_height="250px"
-            android:layout_gravity="center"
-            android:background="#00FFFFFF"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/ic_camera_solid"
-            tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/ic_camera_solid"/>
     </LinearLayout>
 
     <LinearLayout
@@ -78,78 +75,13 @@
             android:textAlignment="center"
             android:text="운전 면허증 등록"
             android:textSize="40px"></TextView>
-
         <ImageButton
             android:layout_width="250px"
             android:layout_height="250px"
+            android:scaleType="fitCenter"
             android:layout_gravity="center"
             android:background="#00FFFFFF"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/ic_user_plus_solid"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/ic_user_plus_solid"/>
     </LinearLayout>
 
-    <!-- 구분선-->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/black"/>
-    <!-- 구분선-->
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975">
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid" />
-
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid" />
-
-    </LinearLayout>
 </LinearLayout>

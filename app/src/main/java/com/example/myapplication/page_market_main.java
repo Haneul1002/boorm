@@ -1,26 +1,38 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.fragment.app.Fragment;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-public class page_market_main extends AppCompatActivity {
+import androidx.annotation.NonNull;
+import com.example.myapplication.databinding.ActivityPageMarketMainBinding;
 
-    ImageButton btn_back;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page_market_main);
-        btn_back = findViewById(R.id.imageButton);
+public class page_market_main extends Fragment {
+    ImageButton history, wishlist;
+    ActivityPageMarketMainBinding binding;
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        binding = ActivityPageMarketMainBinding.inflate(inflater, container, false);
 
-        btn_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
+        wishlist = binding.wishlist;
+        history = binding.history;
+
+        history.setOnClickListener(view -> {
+            AppCompatActivity activity = (AppCompatActivity) view.getContext();
+            Fragment fragment = new page_market_history();
+            activity.getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, fragment).addToBackStack(null).commit();
         });
+
+        wishlist.setOnClickListener(view -> {
+            AppCompatActivity activity = (AppCompatActivity) view.getContext();
+            Fragment fragment = new page_market_wishlist();
+            activity.getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, fragment).addToBackStack(null).commit();
+        });
+        return binding.getRoot();
     }
 }

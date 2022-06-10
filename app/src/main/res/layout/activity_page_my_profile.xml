@@ -12,24 +12,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="30px"
-            android:layout_weight="1"
-            android:background="#00F6F3F3"
-            android:padding="50px"
-
-            app:srcCompat="@drawable/angle_left_solid"
-            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="10"
-            android:layout_margin="30px"
+            android:layout_weight="1"
+            android:layout_margin="45px"
             android:padding="50px"
             android:layout_gravity="center"
             android:textAlignment="center"
@@ -39,7 +28,7 @@
     <!-- 구분선-->
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:background="@color/black"/>
     <!-- 구분선-->
 
@@ -90,19 +79,17 @@
             android:textAlignment="center"
             android:text="나의 별점"
             android:textSize="45px"/>
-
-        <RatingBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:numStars="5"
-            android:rating="3.5"
-            android:stepSize="0"
-            android:textAlignment="center"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="SpeakableTextPresentCheck" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
 
     <LinearLayout
@@ -135,72 +122,4 @@
         </ScrollView>
     </LinearLayout>
 
-    <!-- 구분선-->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/black"/>
-    <!-- 구분선-->
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975">
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid"
-            tools:ignore="SpeakableTextPresentCheck" />
-    </LinearLayout>
 </LinearLayout>

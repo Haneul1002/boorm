@@ -36,7 +36,7 @@
     <!-- 구분선-->
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2dp"
         android:background="@color/black"/>
     <!-- 구분선-->
 
@@ -64,14 +64,16 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_gravity="center"
+        android:layout_weight="1"
         android:padding="50px"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="제조사를 선택하세요"></TextView>
+            android:textSize="50px"
+            android:text="제조사 : "></TextView>
         <Spinner
             android:id="@+id/company"
             android:layout_width="600px"
@@ -88,16 +90,17 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_gravity="center"
-
+        android:layout_weight="1"
         android:padding="50px"
         android:textAlignment="center"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="차종을 선택하세요."></TextView>
+            android:textSize="50px"
+            android:text="차종 : "></TextView>
 
         <Spinner
             android:id="@+id/Car_type"
@@ -110,7 +113,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-
         android:layout_gravity="center">
 </LinearLayout>
 
@@ -129,6 +131,7 @@
         android:padding="50px"
         >
         <Button
+            android:id="@+id/Button_driver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -137,69 +140,6 @@
             android:textSize="50px"></Button>
     </LinearLayout>
 
-    <!-- 구분선-->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/black"/>
-    <!-- 구분선-->
 
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975">
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid" />
-
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid" />
-
-    </LinearLayout>
 </LinearLayout>

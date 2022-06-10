@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_times_solid"
-    tools:context=".pg_12_java">
+    tools:context=".pg_28_java">
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="54dp"
         android:layout_height="61dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="178dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="176dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
@@ -22,14 +22,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="109dp"
-        android:layout_marginBottom="530dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="29dp"
         android:background="#00F6F3F3"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/angle_left_solid"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -44,56 +45,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.975">
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_friends_solid__1_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_user_edit_solid__2_"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_home_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_store_solid__1_"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:layout_marginTop="10dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/ic_cog_solid"
-            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     </LinearLayout>
 
@@ -129,6 +80,7 @@
                 android:height="75dp"
                 android:background="@drawable/border_topbot"
                 android:gravity="left|center_vertical"
+                android:onClick="btnOnClick1"
                 android:text="(이벤트) 카풀 이용하고 스탬프 받자!"
                 android:textColor="#090909"
                 android:textSize="18dp"
@@ -150,7 +102,8 @@
                 android:gravity="left|center_vertical"
                 android:text="매칭이 완료되었습니다!"
                 android:textColor="#090909"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:onClick="btnOnClick2"/>
 
             <Button
                 android:id="@+id/button20"
@@ -166,7 +119,8 @@
                 android:gravity="left|center_vertical"
                 android:text="(공지사항) V1.5 업데이트 내역"
                 android:textColor="#090909"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:onClick="btnOnClick3"/>
 
             <Button
                 android:id="@+id/button24"
@@ -204,5 +158,6 @@
         </RelativeLayout>
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
