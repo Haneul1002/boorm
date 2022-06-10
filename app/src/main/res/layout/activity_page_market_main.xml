@@ -32,6 +32,7 @@
             android:textSize="60px"/>
 
         <ImageButton
+            android:id="@+id/history"
             android:layout_width="80px"
             android:layout_height="80px"
             android:layout_marginRight="180px"
@@ -41,6 +42,7 @@
             android:src="@drawable/ic_file_text2"></ImageButton>
 
         <ImageButton
+            android:id="@+id/wishlist"
             android:layout_width="80px"
             android:layout_height="80px"
             android:layout_marginRight="60px"

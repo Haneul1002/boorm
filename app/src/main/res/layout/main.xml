@@ -39,6 +39,8 @@
             android:id="@+id/bottomNavigationView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:itemIconSize="40dp"
+            app:labelVisibilityMode="unlabeled"
             app:menu="@menu/menu"
             app:itemBackground="@android:color/white"
             app:itemIconTint="#FF54b0d5"
