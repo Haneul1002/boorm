@@ -15,6 +15,7 @@ public class activity_main extends AppCompatActivity {
     ImageButton btn_profile;
     ImageButton btn_store;
     ImageButton btn_config;
+    ImageButton btn_regretation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class activity_main extends AppCompatActivity {
         btn_profile= findViewById(R.id.imageButton6);
         btn_store = findViewById(R.id.imageButton7);
         btn_config = findViewById(R.id.imageButton5);
+        btn_regretation = findViewById(R.id.regretation_button);
 
         btn_home.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -59,6 +61,14 @@ public class activity_main extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(),pg_14_java.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_regretation.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(),activity_main_regretation.class);
                 startActivity(intent);
             }
         });

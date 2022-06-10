@@ -110,8 +110,9 @@
                 android:background="#00FFFFFF"
                 app:srcCompat="@drawable/ic_arrow_rotate_right_solid"
                 tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
             <ImageButton
-                android:id="@+id/imageButton32"
+                android:id="@+id/regretation_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
