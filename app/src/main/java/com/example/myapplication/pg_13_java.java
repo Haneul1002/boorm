@@ -12,11 +12,6 @@ import android.widget.Toast;
 public class pg_13_java extends AppCompatActivity {
     Button btn_complete ;
     ImageButton btn_back;
-    ImageButton btn_home;
-    ImageButton btn_messenger;
-    ImageButton btn_profile;
-    ImageButton btn_store;
-    ImageButton btn_config;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,11 +19,6 @@ public class pg_13_java extends AppCompatActivity {
 
         btn_complete = findViewById(R.id.button3);
         btn_back = findViewById(R.id.imageButton);
-        btn_home = findViewById(R.id.imageButton3);
-        btn_messenger = findViewById(R.id.imageButton4);
-        btn_profile= findViewById(R.id.imageButton6);
-        btn_store = findViewById(R.id.imageButton7);
-        btn_config = findViewById(R.id.imageButton5);
 
 
         btn_complete.setOnClickListener(new View.OnClickListener(){
@@ -47,46 +37,6 @@ public class pg_13_java extends AppCompatActivity {
             }
         });
 
-        btn_home.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),activity_main.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        btn_messenger.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),pg_25_java.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        btn_profile.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_my_profile.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        btn_store.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_market_main.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        btn_config.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),pg_14_java.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
     }
 }

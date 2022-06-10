@@ -7,55 +7,41 @@
     tools:context=".pg_12_java">
 
     <FrameLayout
-        android:background="#7ad0f2"
+        android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:background="#7ad0f2"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_margin="35px"
             android:layout_width="200px"
             android:layout_height="200px"
             android:layout_gravity="center"
-            android:src="@drawable/logo"
-            >
-        </ImageView>
+            android:layout_margin="35px"
+            android:src="@drawable/logo"></ImageView>
     </FrameLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="405dp"
-        android:layout_height="85dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.975">
-
-    </LinearLayout>
 
 
     <LinearLayout
 
         android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="556dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="98dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
         <!-- 구분선-->
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/black"/>
+            android:background="@color/black" />
         <!-- 구분선-->
 
         <RelativeLayout
@@ -66,84 +52,29 @@
             android:background="@color/white"
             android:nestedScrollingEnabled="false">
 
-            <ImageButton
-
-                android:id="@+id/imageButton8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="43dp"
-                android:layout_marginTop="68dp"
-                android:background="@color/white"
-                app:srcCompat="@drawable/ic_list_solid"
-                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="62dp"
-                android:layout_toEndOf="@+id/imageButton8"
-                android:backgroundTint="@color/white"
-                android:elevation="100dp"
-                android:shadowColor="#000000"
-                android:text="카풀 이용 내역"
-                android:textColor="@color/black"
-
-                android:textSize="22dp" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="250dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/button5"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="37dp"
-                android:layout_toEndOf="@+id/imageButton9"
-                android:backgroundTint="@color/white"
-                android:elevation="10dp"
-                android:text="포인트 조회"
-                android:textColor="@color/black"
-                android:textSize="22dp" />
-
-            <ImageButton
-                android:id="@+id/imageButton9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/imageButton8"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="43dp"
-                android:layout_marginTop="53dp"
-                android:background="@color/white"
-                app:srcCompat="@drawable/ic_coins_solid"
-                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
             <Button
                 android:id="@+id/button7"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/button6"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="37dp"
+                android:layout_marginTop="36dp"
                 android:layout_toEndOf="@+id/imageButton10"
                 android:backgroundTint="@color/white"
-                android:textColor="@color/black"
                 android:text="결제 수단 관리"
+                android:textColor="@color/black"
                 android:textSize="22dp" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/imageButton12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageButton9"
+                android:layout_below="@+id/imageButton11"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="43dp"
-                android:layout_marginTop="45dp"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="55dp"
                 android:background="@color/white"
-                app:srcCompat="@drawable/ic_credit_card_regular"
+                app:srcCompat="@drawable/ic_lock_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             <Button
@@ -160,16 +91,59 @@
                 android:textSize="22dp" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/imageButton9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageButton10"
+                android:layout_below="@+id/imageButton8"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="43dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="53dp"
                 android:background="@color/white"
-                app:srcCompat="@drawable/ic_car_side"
+                app:srcCompat="@drawable/ic_coins_solid"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="80dp"
+                android:layout_toEndOf="@+id/imageButton8"
+                android:backgroundTint="@color/white"
+                android:elevation="100dp"
+                android:shadowColor="#000000"
+                android:text="카풀 이용 내역"
+                android:textColor="@color/black"
+
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button5"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="36dp"
+                android:layout_toEndOf="@+id/imageButton9"
+                android:backgroundTint="@color/white"
+                android:elevation="10dp"
+                android:text="포인트 조회"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <ImageButton
+
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="86dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_list_solid"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
             <Button
                 android:id="@+id/button9"
@@ -180,21 +154,33 @@
                 android:layout_marginTop="36dp"
                 android:layout_toEndOf="@+id/imageButton12"
                 android:backgroundTint="@color/white"
-                android:textColor="@color/black"
                 android:text="계정 설정"
+                android:textColor="@color/black"
                 android:textSize="22dp"
                 tools:ignore="TouchTargetSizeCheck" />
 
             <ImageButton
-                android:id="@+id/imageButton12"
+                android:id="@+id/imageButton10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/imageButton11"
+                android:layout_below="@+id/imageButton9"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="43dp"
-                android:layout_marginTop="55dp"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="45dp"
                 android:background="@color/white"
-                app:srcCompat="@drawable/ic_lock_solid"
+                app:srcCompat="@drawable/ic_credit_card_regular"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageButton10"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="60dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_car_side"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         </RelativeLayout>

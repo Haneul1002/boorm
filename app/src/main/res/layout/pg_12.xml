@@ -13,9 +13,7 @@
         android:layout_marginStart="49dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="109dp"
-        android:layout_marginBottom="530dp"
         android:background="#00F6F3F3"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,18 +30,6 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="405dp"
-        android:layout_height="85dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-    </LinearLayout>
 
     <RelativeLayout
         android:id="@+id/RelativeLayout01"

@@ -30,6 +30,13 @@
             android:hint="변경 할 닉네임을 작성해주세요.">
 
         </EditText>
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="변경하기" />
     </LinearLayout>
 
 </LinearLayout>
