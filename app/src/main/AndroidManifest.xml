@@ -23,7 +23,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_idsearch"/>
-        <activity android:name=".activity_main_regretation"/>
         <activity android:name=".page_match"/>
         <activity android:name=".page_password"/>
         <activity android:name=".page_signup"/>

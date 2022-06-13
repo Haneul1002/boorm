@@ -3,13 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/border_top.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/border_topbot.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_aaaa.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_arrow_circle_up_solid.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_arrow_rotate_right_solid.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_check_circle_solid.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_circle_plus_solid.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_coins_solid.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_comment_dots_solid.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_comments_solid.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_file_text2.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_free_icon_font_paper_plane_3917398.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_image_solid.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_list_solid.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_lock_solid.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_minus.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_minus_empty.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_plus.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_s_oil.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_times_solid.xml" value="0.1015" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_user_edit_solid__2_.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_user_friends_solid__1_.xml" value="0.1" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/drawable/ic_user_plus_solid.xml" value="0.1" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_idsearch.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_login.xml" value="0.2640625" />
-        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_main_regretation.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_match_detail.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_page_market_history.xml" value="0.2640625" />
-        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_page_market_main.xml" value="0.2640625" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_page_market_main.xml" value="0.23859649122807017" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_page_market_wishlist.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_page_my_drivereg.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_page_my_drivereg1.xml" value="0.2028985507246377" />
@@ -23,6 +48,8 @@
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/activity_signup.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/fragment_page__n_i_c_k_change.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/fragment_page__p_w_change.xml" value="0.2640625" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/list_market.xml" value="0.2" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/list_matching.xml" value="0.264" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/loding.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/main.xml" value="0.2640625" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/pg_11.xml" value="0.2028985507246377" />
@@ -39,6 +66,7 @@
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/pg_27.xml" value="0.2028985507246377" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/pg_27_1.xml" value="0.8" />
         <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/pg_28.xml" value="0.2640625" />
+        <entry key="..\:/Users/Public/boorm/app/src/main/res/layout/test.xml" value="0.2" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.153" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_angle_left_solid.xml" value="0.3085" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/MyApplication6/app/src/main/res/drawable/ic_bell_solid__1_.xml" value="0.154" />

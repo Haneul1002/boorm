@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00F6F3F3"
+            app:srcCompat="@drawable/angle_left_solid"
+            android:layout_weight="1"
+            android:layout_margin="30px"
+            android:padding="50px" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_margin="30px"
+            android:padding="50px"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="상세정보"
+            android:textSize="60px"/>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <ImageView
+    android:id="@+id/test_image"
+    android:layout_width="500px"
+    android:layout_height="500px"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:paddingBottom="50px"
+    android:src="@drawable/ic_camera_solid"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30px"
+        android:layout_marginTop="50dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="상품명"
+        android:paddingLeft="30px"
+        android:textSize="20sp"
+        />
+
+    <TextView
+    android:id="@+id/test_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="A"
+        android:paddingLeft="30px"
+        android:textSize="20sp"
+    />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30px"
+            android:paddingTop="100px"
+            >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가격"
+        android:paddingLeft="30px"
+        android:textSize="20sp"
+        />
+    <TextView
+    android:id="@+id/test_price"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="B"
+        android:paddingLeft="30px"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:text="구매하기"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

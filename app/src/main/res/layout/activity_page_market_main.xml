@@ -11,20 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#00F6F3F3"
-            app:srcCompat="@drawable/angle_left_solid"
-            android:layout_margin="30px"
-            android:padding="50px" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="30px"
+            android:layout_margin="45px"
             android:padding="50px"
             android:layout_gravity="center"
             android:textAlignment="center"
@@ -80,11 +72,10 @@
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="match_parent">
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/listView"
+            android:id="@+id/recycler_view"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
-
 </LinearLayout>

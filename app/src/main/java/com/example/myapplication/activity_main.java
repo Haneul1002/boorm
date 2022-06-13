@@ -2,75 +2,54 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ListView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
-public class activity_main extends AppCompatActivity {
-    ImageButton btn_home;
-    ImageButton btn_messenger;
-    ImageButton btn_profile;
-    ImageButton btn_store;
-    ImageButton btn_config;
-    ImageButton btn_regretation;
+import com.example.myapplication.databinding.ActivityMainBinding;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+import java.util.ArrayList;
 
-        btn_home = findViewById(R.id.imageButton3);
-        btn_messenger = findViewById(R.id.imageButton4);
-        btn_profile= findViewById(R.id.imageButton6);
-        btn_store = findViewById(R.id.imageButton7);
-        btn_config = findViewById(R.id.imageButton5);
-        btn_regretation = findViewById(R.id.regretation_button);
+public class activity_main extends Fragment {
+    ArrayList<matching_Data> matching =  new ArrayList<matching_Data>();
+    ListView listview;
+    ImageButton imageButton31;
+    ImageButton regretation;
+    ActivityMainBinding binding;
 
-        btn_home.setOnClickListener(new View.OnClickListener(){
-            @Override
-                public void onClick(View v){
-                    Intent intent = new Intent(getApplicationContext(),activity_main.class);
-                    startActivity(intent);
-                }
-            });
-        btn_messenger.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),pg_25_java.class);
-                startActivity(intent);
-            }
-        });
-        btn_profile.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_my_profile.class);
-                startActivity(intent);
-            }
-        });
-        btn_store.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),page_market_main.class);
-                startActivity(intent);
-            }
-        });
-        btn_config.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),pg_14_java.class);
-                startActivity(intent);
-            }
-        });
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        binding = ActivityMainBinding.inflate(inflater, container, false);
 
-        btn_regretation.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),activity_main_regretation.class);
-                startActivity(intent);
-            }
+        matching.add( new matching_Data("철수", "남","D관","학교 정문",
+                "6월","15일","15:00","조용히 가고 싶습니다", R.drawable.ic_aaaa));
+
+        matching.add( new matching_Data("영희", "여","목원대학교","갤러리아 타임월드",
+                "6월","15일","15:00","조용히 가고 싶습니다", R.drawable.ic_ryan));
+        matching_DataAdater adapter= new matching_DataAdater( getLayoutInflater() , matching);
+
+        listview = binding.listView;
+        listview.setAdapter(adapter);
+
+        imageButton31 = binding.imageButton31;
+        regretation = binding.regretationButton;
+
+        imageButton31.setOnClickListener(view -> {
+           //새로고침
         });
+        regretation.setOnClickListener(view -> {
+            AppCompatActivity activity = (AppCompatActivity) view.getContext();
+            Fragment fragment = new activity_main_regretation();
+            activity.getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, fragment).addToBackStack(null).commit();
+        });
+        return binding.getRoot();
     }
 }
