@@ -82,6 +82,7 @@ public class page_market_main extends Fragment {
         canvas.setBitmap(bitmap);
         drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
         drawable.draw(canvas);
+
         return bitmap;
     }
     @Override

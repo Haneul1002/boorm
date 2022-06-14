@@ -104,7 +104,9 @@
         <Button
             android:layout_width="wrap_content"
             android:text="구매하기"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/buy_button"
+            >
 
         </Button>
     </LinearLayout>

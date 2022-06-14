@@ -7,7 +7,41 @@
     tools:context=".page_PW_change"
     android:orientation="vertical"
     >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
 
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:layout_weight="1"
+            android:background="#00F6F3F3"
+            android:padding="50px"
+            app:srcCompat="@drawable/angle_left_solid"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_margin="30px"
+            android:padding="50px"
+            android:text="비밀번호 변경"
+            android:textSize="60px" />
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
 
     <LinearLayout
         android:layout_margin="30px"

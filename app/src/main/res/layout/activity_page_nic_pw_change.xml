@@ -34,7 +34,10 @@
             android:text="닉네임/PW 변경"
             android:textSize="60px" />
     </FrameLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -71,7 +74,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="91dp"
             android:layout_marginTop="146dp"
-            android:background="@drawable/border"
+            android:background="@color/white"
             android:text="현재 닉네임 : boorm"
             android:textColor="#000000"
             android:textSize="28dp" />
