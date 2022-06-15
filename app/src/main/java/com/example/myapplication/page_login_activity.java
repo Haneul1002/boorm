@@ -29,24 +29,24 @@ public class page_login_activity extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         binding = ActivityLoginBinding.inflate(inflater, container, false);
         context = container.getContext();
-        button1 = binding.login_btn;
+        button1 = binding.loginBtn;
         button1.setOnClickListener(view -> {
             Intent intent = new Intent(getActivity(), activity_main.class);
             startActivity(intent);
         });
-        button2 = binding.sign_up_btn;
+        button2 = binding.signUpBtn;
         button2.setOnClickListener(view -> {
             // 결제 수단 관리
             Intent intent = new Intent(getActivity(), page_signup.class);
             startActivity(intent);
         });
-        button3 = binding.id_search_btn;
+        button3 = binding.idSearchBtn;
         button3.setOnClickListener(view -> {
             // 드라이버 등록
             Intent intent = new Intent(getActivity(), activity_idsearch.class);
             startActivity(intent);
         });
-        button4 = binding.password_search_btn;
+        button4 = binding.passwordSearchBtn;
         button4.setOnClickListener(view -> {
             // 계정 설정
             Intent intent = new Intent(getActivity(), page_password.class);
