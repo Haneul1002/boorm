@@ -22,11 +22,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class pg_27_1java extends AppCompatActivity {
     ChatMessageAdapter chatMessageAdapter;
-
+    ImageButton btn_exit;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pg_27_1);
+        btn_exit = findViewById(R.id.imageButton26);
+
+        btn_exit.setOnClickListener(view -> {
+            finish();
+        });
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){

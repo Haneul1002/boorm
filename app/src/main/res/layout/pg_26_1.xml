@@ -24,7 +24,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:src="@drawable/hong" />
 
         <TextView
             android:id="@+id/textView12"
@@ -49,14 +49,15 @@
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_big_x" />
+        app:srcCompat="@drawable/ic_big_x"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="380dp"
         android:layout_height="95dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="544dp"
+        android:layout_marginTop="516dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="내용을 입력하세요"
@@ -69,21 +70,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="648dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_image_solid" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/ic_image_solid"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="296dp"
-        android:layout_marginTop="652dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/imageButton27"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_free_icon_font_paper_plane_3917398" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:srcCompat="@drawable/ic_free_icon_font_paper_plane_3917398"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

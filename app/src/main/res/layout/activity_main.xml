@@ -8,30 +8,15 @@
     tools:context=".pg_12_java">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="1px"
-        android:layout_height="1px"
-
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.975">
-
-
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="500dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="97dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -64,9 +49,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="320dp"
-                android:scaleType="fitCenter"
                 android:layout_marginTop="200dp"
                 android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/ic_arrow_rotate_right_solid"
                 tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
 
@@ -87,20 +72,20 @@
     </LinearLayout>
 
     <FrameLayout
-        android:background="#7ad0f2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:background="#7ad0f2"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_margin="35px"
             android:id="@+id/imageView5"
             android:layout_width="200px"
             android:layout_height="200px"
             android:layout_gravity="center"
-            android:src="@drawable/logo"
-            >
-        </ImageView>
+            android:layout_margin="35px"
+            android:src="@drawable/logo"></ImageView>
 
         <ImageButton
             android:id="@+id/imageButton33"

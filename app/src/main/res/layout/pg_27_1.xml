@@ -24,7 +24,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:src="@drawable/man" />
 
         <TextView
             android:id="@+id/textView12"
@@ -76,10 +76,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="648dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:srcCompat="@drawable/ic_image_solid"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -88,30 +87,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="296dp"
-        android:layout_marginTop="652dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toEndOf="@+id/imageButton27"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:srcCompat="@drawable/ic_free_icon_font_paper_plane_3917398"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-    <ListView
-        android:layout_width="409dp"
-        android:layout_height="460dp"
-        android:layout_marginStart="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+    <TextView
+        android:id="@+id/chatmessage"
+        android:layout_width="231dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="64dp"
+        android:background="#6CDCEA"
+        android:text="Chat message"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout03">
+        app:layout_constraintTop_toBottomOf="@+id/RelativeLayout03" />
 
-        <TextView
-            android:id="@+id/chatmessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Chat message"
-            android:textSize="34sp" />
-
-
-    </ListView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

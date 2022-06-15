@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -60,7 +61,21 @@ public class page_login_activity extends AppCompatActivity {
 
         });
 
-        button4.setOnClickListener(new View.OnClickListener() {
+
+        Button button5 = (Button) findViewById(R.id.naver_btn);
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(getApplicationContext(), "서비스 준비중입니다.",Toast.LENGTH_SHORT);
+                toast.show();
+            }
+
+        });
+
+        Button button6 = (Button) findViewById(R.id.kakao_btn);
+
+        button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), page_password.class);

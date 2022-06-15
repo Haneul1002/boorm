@@ -146,6 +146,17 @@
                 android:layout_marginTop="0dp"
                 android:background="@drawable/border_topbot">
 
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@+id/imageView10"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-47dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00FFFFFF"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/imageView10"
                     android:layout_width="62dp"
@@ -154,7 +165,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="47dp"
                     android:layout_marginTop="0dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/hong" />
 
                 <TextView
                     android:id="@+id/textView12"
@@ -207,7 +218,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="47dp"
                     android:layout_marginTop="0dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/man" />
 
                 <TextView
                     android:id="@+id/textView24"
@@ -260,7 +271,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="47dp"
                     android:layout_marginTop="0dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/joo" />
 
                 <TextView
                     android:id="@+id/textView27"
@@ -313,7 +324,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="47dp"
                     android:layout_marginTop="0dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/man2" />
 
                 <TextView
                     android:id="@+id/textView30"
@@ -366,7 +377,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="47dp"
                     android:layout_marginTop="0dp"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:src="@drawable/girl" />
 
                 <TextView
                     android:id="@+id/textView33"
